@@ -21,9 +21,10 @@
 </template>
 
 <style scoped>
+
 header {
-    background-color: #696766;
-  margin: 0px 50px;
+  background-color: #696766;
+  
 }
 nav {
   display: flex;
