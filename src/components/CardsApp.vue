@@ -6,8 +6,19 @@
   <main>
     <section class="cards">
       <ul>
-        <li>
-          
+        <li class="um">
+          <p>OUR STORY</p>
+        </li>
+        <li class="dois">
+          <p>THE DETAILS</p>
+        </li>
+      </ul>
+      <ul>
+        <li class="tres">
+          <p>RSVP</p>
+        </li>
+        <li class="quatro">
+          <p>REGISTRY</p>
         </li>
       </ul>
     </section>
@@ -16,4 +27,36 @@
 
 <style scoped>
 
+  section ul {
+    display: flex;
+    justify-content: center;
+  }
+
+  ul li {
+    padding: 18vw 12vw;
+    width: 33%;
+    height: 500px;
+    border-radius: 15px;
+    margin: 2vw;
+    text-align: center;
+  }
+
+  ul li p {
+    color: white;
+    text-decoration: underline;
+    font-size: 1.5vw;
+  }
+
+  ul li.um {
+    background-image: url(/public/img/cards01.png);
+  }
+  ul li.dois {
+    background-image: url(/public/img/cards02.png);
+  }
+  ul li.tres {
+    background-image: url(/public/img/cards03.png);
+  }
+  ul li.quatro {
+    background-image: url(/public/img/cards04.png);
+  }
 </style>
