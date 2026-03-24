@@ -33,9 +33,9 @@
   }
 
   ul li {
-    padding: 18vw 12vw;
-    width: 33%;
-    height: 500px;
+    padding: 16vw 12vw;
+    width: 30%;
+    height: 0vw;
     border-radius: 15px;
     margin: 2vw;
     text-align: center;
