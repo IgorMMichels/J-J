@@ -8,7 +8,9 @@
     <div>
       <h3>
         With love and gratitude, we invite you to share in the joy of our wedding day.
-        <br/>Saturday, September 20, 2025 The Golden Elm Manor, St.Augustine, New York
+      </h3>
+      <h3 class="obs">
+        Saturday, September 20, 2025 The Golden Elm Manor, St.Augustine, New York
       </h3>
     </div>
   </section>
@@ -21,17 +23,27 @@
     text-align: center;
   }
 
+  section {
+    margin: 0 0 2vw 0;
+  }
+
   section div {
-    background-image: url(/public/img/pink-flowers.png);
+    background-image: url(/img/pink-flowers.png);
+    background-size: cover;
     padding: 10vw;
   }
 
   .banner h3 {
-    font-size: 2rem;
+    color: white;
+    font-size: 2vw;
     text-align: center;
-    margin: 0 20vw;
+    margin: 2vw 20vw;
     font-family: serif;
-    }
+  }
+
+  .banner h3.obs {
+    margin: 0 27vw;
+  }
 
 
 </style>

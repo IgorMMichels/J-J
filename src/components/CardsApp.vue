@@ -48,15 +48,15 @@
   }
 
   ul li.um {
-    background-image: url(/public/img/cards01.png);
+    background-image: url(img/cards01.png);
   }
   ul li.dois {
-    background-image: url(/public/img/cards02.png);
+    background-image: url(img/cards02.png);
   }
   ul li.tres {
-    background-image: url(/public/img/cards03.png);
+    background-image: url(img/cards03.png);
   }
   ul li.quatro {
-    background-image: url(/public/img/cards04.png);
+    background-image: url(img/cards04.png);
   }
 </style>
