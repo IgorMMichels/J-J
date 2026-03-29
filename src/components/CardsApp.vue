@@ -1,6 +1,4 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
   <main>
@@ -26,17 +24,46 @@
 </template>
 
 <style scoped>
+section ul {
+  display: flex;
+  justify-content: center;
+}
 
-  section ul {
-    display: flex;
-    justify-content: center;
-  }
+ul li {
+  padding: 16vw 12vw;
+  width: 30%;
+  height: 0vw;
+  border-radius: 15px;
+  margin: 2vw;
+  text-align: center;
+}
 
+ul li p {
+  color: white;
+  text-decoration: underline;
+  font-size: 1.5vw;
+}
+
+ul li.um {
+  background-image: url(img/cards01.png);
+}
+ul li.dois {
+  background-image: url(img/cards02.png);
+}
+ul li.tres {
+  background-image: url(img/cards03.png);
+}
+ul li.quatro {
+  background-image: url(img/cards04.png);
+}
+
+@media screen and (max-width: 650px) {
   ul li {
-    padding: 16vw 12vw;
-    width: 30%;
+    background-size: cover;
+    padding: 30vw 10vw;
+    width: 40%;
     height: 0vw;
-    border-radius: 15px;
+    border-radius: 18px;
     margin: 2vw;
     text-align: center;
   }
@@ -44,19 +71,7 @@
   ul li p {
     color: white;
     text-decoration: underline;
-    font-size: 1.5vw;
+    font-size: 3vw;
   }
-
-  ul li.um {
-    background-image: url(img/cards01.png);
-  }
-  ul li.dois {
-    background-image: url(img/cards02.png);
-  }
-  ul li.tres {
-    background-image: url(img/cards03.png);
-  }
-  ul li.quatro {
-    background-image: url(img/cards04.png);
-  }
+}
 </style>

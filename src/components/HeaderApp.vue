@@ -24,7 +24,7 @@
 
 header {
   background-color: #696766;
-  
+
 }
 nav {
   display: flex;
@@ -59,5 +59,38 @@ nav {
   margin: 24px 12px;
   align-items: center;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 650px) {
+  .logo p {
+    font-size: .8rem;
+  }
+  .logo h1 {
+  font-family: 'Instrument Serif', serif;
+  font-size: 2rem;
+  margin: 0 24px 0 0;
+}
+
+.index ul li {
+  margin: 0 12px;
+  font-size: .7rem;
+  color: black;
+}
+
+.index ul {
+  display: flex;
+  margin: 24px 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+  .logo {
+  display: flex;
+  margin: 0 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
 }
 </style>

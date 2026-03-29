@@ -27,4 +27,14 @@
     font-family: 'serif';
   }
 
+  @media screen and (max-width: 650px) {
+    .footer h3 {
+      font-size: 8vw;
+    }
+
+    .footer p {
+      font-size: 3vw;
+    }
+  }
+
 </style>
