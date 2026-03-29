@@ -2,7 +2,7 @@
   import Header from './components/HeaderApp.vue'
   import Banner from './components/BannerApp.vue'
   import Cards from './components/CardsApp.vue'
-  import Registry from './components/registryApp.vue'
+  import Registry from './components/RegistryApp.vue'
   import Footer from './components/FooterApp.vue'
 </script>
 
